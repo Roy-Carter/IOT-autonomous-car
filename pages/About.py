@@ -70,15 +70,6 @@ with col2:
 
 st.divider()
 
-st.markdown("## Recording Tips (5–12 min)")
-st.markdown("""
-1. **Add demo videos** — in the sidebar under Browse Library → *Add Demo Videos*, download the Udacity clips into the local library.
-2. **Browse Library** — select a demo video, run detection, then walk through the 7-step pipeline visualization.
-3. **Upload to Library** — drag in a dashcam video, show the DB save, run detection.
-4. **Advanced Settings** — change Canny thresholds live and show the effect in Pipeline Steps.
-5. **Results History tab** — use the run picker to compare multiple detection runs on the same clip.
-""")
-
 st.divider()
 st.markdown("## GitHub Repository")
 st.markdown("[https://github.com/Roy-Carter/IOT-autonomous-car](https://github.com/Roy-Carter/IOT-autonomous-car)")
