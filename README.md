@@ -14,35 +14,6 @@ Real-time lane detection system for autonomous vehicles. Upload a video or image
 
 ---
 
-## Project Structure
-
-```
-IOT-autonomous-car/
-├── app.py                        # Streamlit web app (main entry point)
-├── pages/
-│   └── About.py                  # About page inside the app
-├── src/
-│   ├── lane_detector.py          # Core detection engine
-│   ├── db.py                     # SQLite media library
-│   ├── synthetic_road.py         # Synthetic road scene generator
-│   └── main.py                   # CLI entry point
-├── docs/
-│   ├── project_summary.docx      # Project summary document
-│   ├── theory_description.docx   # Theory description
-│   ├── generate_summary.py       # Regenerates project_summary.docx
-│   └── generate_theory_doc.py    # Regenerates theory_description.docx
-├── presentation/
-│   ├── Lane_Detection_AV_Course.pptx   # 11-slide presentation (with embedded video)
-│   └── generate_presentation.py        # Regenerates the pptx
-├── data/                         # Screenshots and demo video
-├── output/
-│   └── samples/                  # Generated pipeline demo images
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## Quickstart
 
 ### 1. Clone
@@ -112,16 +83,6 @@ python src/main.py --image path/to/frame.jpg --output output/result.jpg
 
 ---
 
-## Regenerate Documents
-
-```bash
-python docs/generate_summary.py        # project_summary.docx
-python docs/generate_theory_doc.py     # theory_description.docx
-python presentation/generate_presentation.py  # Lane_Detection_AV_Course.pptx
-```
-
----
-
 ## Results
 
 | Scenario | Lane Detected | Notes |
@@ -138,11 +99,10 @@ python presentation/generate_presentation.py  # Lane_Detection_AV_Course.pptx
 
 ## Deliverables
 
-| Item | File |
+| Item | Location |
 |---|---|
-| Presentation (11 slides, embedded video) | `presentation/Lane_Detection_AV_Course.pptx` |
-| Project summary | `docs/project_summary.docx` |
-| Theory description | `docs/theory_description.docx` |
+| Presentation | `presentation/` |
+| Project documentation | `docs/` |
 | Source code | This repository |
 | Recording | `data/Screencast from 2026-04-30 21-58-57.mp4` |
 
@@ -157,7 +117,6 @@ python presentation/generate_presentation.py  # Lane_Detection_AV_Course.pptx
 | NumPy | Array math, curve fitting |
 | Streamlit | Web interface |
 | SQLite | Media library & results storage |
-| python-pptx / python-docx | Document generation |
 
 ---
 
@@ -167,7 +126,5 @@ python presentation/generate_presentation.py  # Lane_Detection_AV_Course.pptx
 |---|---|
 | `ModuleNotFoundError: cv2` | `pip install opencv-python` |
 | `ModuleNotFoundError: streamlit` | `pip install streamlit` |
-| `ModuleNotFoundError: docx` | `pip install python-docx` |
-| `ModuleNotFoundError: pptx` | `pip install python-pptx` |
 | Video window won't open | Ensure display available (X11/Wayland on Linux) |
 | `Cannot open video` | Verify path and format (mp4, avi, mov) |

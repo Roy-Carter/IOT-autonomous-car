@@ -65,7 +65,3 @@ output/
 *.avi
 *.mov
 *.mkv
-
-# Old / renamed docs (committed copies kept in docs/ and presentation/)
-"Project_Summary-תקציר הפרויקט(3).docx"
-"פרוייקט סופי רכב אוטונומי אינטיליגנטי(1).pptx"
