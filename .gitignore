@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Database (runtime, not source)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# Generated output (re-generatable via main.py --demo)
+output/
+
+# Large binary assets that are not source
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Old / renamed docs (committed copies kept in docs/ and presentation/)
+"Project_Summary-תקציר הפרויקט(3).docx"
+"פרוייקט סופי רכב אוטונומי אינטיליגנטי(1).pptx"
